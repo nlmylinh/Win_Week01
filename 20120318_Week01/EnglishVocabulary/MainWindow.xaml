@@ -1,0 +1,17 @@
+﻿<Window x:Class="EnglishVocabulary.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EnglishVocabulary"
+        mc:Ignorable="d"
+        Title="EnglishVocabulary" Height="600" Width="600">
+    <Canvas>
+        <Label Name="engLabel" Content="Highlight" Canvas.Left="76" Canvas.Top="506" FontSize="20" FontWeight="Heavy" Width="150" Height="40" 
+        FontStyle="Italic" Foreground="DarkMagenta"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+        <Image Name="engImage" Width="450" Height="449" Source="/Images/english03.jpg" Canvas.Left="76" Canvas.Top="25" />
+
+        <Button x:Name="engButton" Width="100" Height="30" Canvas.Left="401" Canvas.Top="512" Content="Next" FontSize="16" Click="engButton_Click" Background="AliceBlue"/>
+    </Canvas>
+</Window>

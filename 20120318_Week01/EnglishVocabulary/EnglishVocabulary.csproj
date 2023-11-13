@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\english01.jpg" />
+    <None Remove="Images\english02.jpg" />
+    <None Remove="Images\english03.jpg" />
+    <None Remove="Images\english04.jpg" />
+    <None Remove="Images\english05.jpg" />
+    <None Remove="Images\english06.jpg" />
+    <None Remove="Images\english07.jpg" />
+    <None Remove="Images\english08.jpg" />
+    <None Remove="Images\english09.jpg" />
+    <None Remove="Images\english10.jpg" />
+    <None Remove="Images\english11.jpg" />
+    <None Remove="Images\english12.jpg" />
+    <None Remove="Images\english13.jpg" />
+    <None Remove="Images\english14.jpg" />
+    <None Remove="Images\english15.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\english01.jpg" />
+    <Resource Include="Images\english02.jpg" />
+    <Resource Include="Images\english03.jpg" />
+    <Resource Include="Images\english04.jpg" />
+    <Resource Include="Images\english05.jpg" />
+    <Resource Include="Images\english06.jpg" />
+    <Resource Include="Images\english07.jpg" />
+    <Resource Include="Images\english08.jpg" />
+    <Resource Include="Images\english09.jpg" />
+    <Resource Include="Images\english10.jpg" />
+    <Resource Include="Images\english11.jpg" />
+    <Resource Include="Images\english12.jpg" />
+    <Resource Include="Images\english13.jpg" />
+    <Resource Include="Images\english14.jpg" />
+    <Resource Include="Images\english15.jpg" />
+  </ItemGroup>
+
+</Project>
